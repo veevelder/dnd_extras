@@ -6,7 +6,7 @@
 	"author": "veevelder",
 	"systems": ["dnd5e"],
 	"esmodules": ["scripts/books.js"],
-	"scripts": ["scripts/book2.js"]
+	"scripts": ["scripts/book2.js"],
 	"styles": ["styles/books.css"],
 	"packs": [
 		{
