@@ -17,6 +17,62 @@
 			"path": "./packs/backgroundfeatures.db",
 			"module": "dnd-extras",
 			"entity": "Item"
+		},
+		{
+			"name": "extra-classfeatures",
+			"label": "Class Features",
+			"path": "./packs/classfeatures.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
+		},
+		{
+			"name": "extra-feats",
+			"label": "Feats",
+			"path": "./packs/feats.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
+		},
+		{
+			"name": "extra-items",
+			"label": "Items",
+			"path": "./packs/items.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
+		},
+		{
+			"name": "extra-macros",
+			"label": "Macros",
+			"path": "packs/macros.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Macro"
+		},
+		{
+			"name": "extra-monsterfeatures",
+			"label": "Monster Features",
+			"path": "./packs/monsterfeatures.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
+		},
+		{
+			"name": "extra-monsters",
+			"label": "Monsters",
+			"path": "./packs/monsters.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Actor"
+		},
+		{
+			"name": "extra-racefeatures",
+			"label": "Race Features",
+			"path": "./packs/racefeatures.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
+		},
+		{
+			"name": "extra-spells",
+			"label": "Spells",
+			"path": "./packs/spells.db",
+			"module": "dnd5e-compendium-extras",
+			"entity": "Item"
 		}
 	],
     "socket": true,
