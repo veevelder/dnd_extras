@@ -1,66 +1,68 @@
 {
 	"name": "dnd5e-compendium-extras",
 	"title": "D&D 5E Compendium Extras",
-	"description": "<p>This is a collection of Compendium Extras for DND5e that are not included in the SRD</p>",
+	"description": "<p>This is a collection of Compendium Extras for D&D5e that are not included in the SRD</p>",
 	"version": "0.2",
 	"author": "veevelder",
-	"systems": ["dnd5e"],
+	"minimumCoreVersion": "0.5.7",
+	"compatibleCoreVersion": "0.6.0",
+	"scripts": ["scripts/book_event.js"],
 	"esmodules": ["scripts/books.js"],
 	"styles": ["styles/books.css"],
 	"packs": [
 		{
 			"name": "extra-monsters",
 			"label": "Monsters",
-			"path": "./packs/monsters.db",
+			"path": "packs/monsters.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Actor"
 		},
 		{
 			"name": "extra-items",
 			"label": "Items",
-			"path": "./packs/items.db",
+			"path": "packs/items.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-spells",
 			"label": "Spells",
-			"path": "./packs/spells.db",
+			"path": "packs/spells.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-monsterfeatures",
 			"label": "Monster Features",
-			"path": "./packs/monsterfeatures.db",
+			"path": "packs/monsterfeatures.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-backgrounds",
 			"label": "Backgrounds",
-			"path": "./packs/backgroundfeatures.db",
+			"path": "packs/backgroundfeatures.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-classfeatures",
 			"label": "Class Features",
-			"path": "./packs/classfeatures.db",
+			"path": "packs/classfeatures.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-feats",
 			"label": "Feats",
-			"path": "./packs/feats.db",
+			"path": "packs/feats.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-racefeatures",
 			"label": "Race Features",
-			"path": "./packs/racefeatures.db",
+			"path": "packs/racefeatures.db",
 			"module": "dnd5e-compendium-extras",
 			"entity": "Item"
 		},
@@ -79,10 +81,9 @@
 			"entity": "JournalEntry"
 		}
 	],
+	"system": "dnd5e",
+	"socket": true,
 	"url": "https://github.com/veevelder/dnd_extras",
 	"manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
 	"download": "https://github.com/veevelder/dnd_extras/archive/v0.3.zip",
-	"socket": true,
-	"minimumCoreVersion": "0.5.7",
-	"compatibleCoreVersion": "0.6.0"
 }
