@@ -1,7 +1,7 @@
 {
 	"name": "dnd5e-compendium-extras",
 	"title": "D&D 5E Compendium Extras",
-	"description": "<p>This is a collection of Compendium Extras for D&D5e that are not included in the SRD</p>",
+	"description": "<p>This is a collection of Compendium Extras for DND5e that are not included in the SRD</p>",
 	"version": "0.2",
 	"author": "veevelder",
 	"systems": ["dnd5e"],
