@@ -4,21 +4,21 @@
 			{{#each chapters as |chapter|}}
 				<li class='chapter-item flexcol'>
 					<header class='flexrow'>
-						<a class='chapter-link' onclick='book_show_page()' href="#content_{{chapter._id}}" data-selected="false" <h3>{{chapter.name}}</h3></a>
+						<a class='chapter-link' onclick='book_show_page(event, this)' href="#content_{{chapter._id}}" data-selected="false" <h3>{{chapter.name}}</h3></a>
 					</header>
 					{{#if chapter.subchapters}}
 						<ol class='subchapter-list'>
 							{{#each chapter.subchapters as |subchapter|}}
 								<li class='chapter-item flexcol'>
 									<header class='flexrow'>
-										<a class='chapter-link' onclick='book_show_page()' href="#content_{{chapter._id}}" data-selected="false" <h3>{{subchapter.name}}</h3></a>
+										<a class='chapter-link' onclick='book_show_page(event, this)' href="#content_{{subchapter._id}}" data-selected="false" <h3>{{subchapter.name}}</h3></a>
 									</header>
 									{{#if subchapter.subchapters}}
 										<ol class='subchapter-list'>
 											{{#each subchapter.subchapters as |sc|}}
 												<li class='chapter-item flexcol'>
 													<header class='flexrow'>
-														<a class='chapter-link' onclick='book_show_page()' href="#content_{{chapter._id}}" data-selected="false" <h3>{{sc.name}}</h3></a>
+														<a class='chapter-link' onclick='book_show_page(event, this)' href="#content_{{sc._id}}" data-selected="false" <h3>{{sc.name}}</h3></a>
 													</header>
 												</li>
 											{{/each}}
@@ -33,22 +33,25 @@
 		</ol>
 	</div>
 	<div class='book-content'>
+		<div class='chapter-section' id="content_cover">
+			<img src="http://media-waterdeep.cursecdn.com/attachments/2/723/phbcover.jpg", alt="Player's Handbook Cover"/>
+		</div>
 		{{#each chapters as |chapter|}}
-			<div class='chapter-section' style="display:none" id="{{chapter._id}}">
+			<div class='chapter-section' style="display:none" id="content_{{chapter._id}}">
 				<h1>{{chapter.name}}</h1>
 				{{#if chapter.data }}
 					{{{chapter.data.content}}}
 				{{/if}}
 				{{#if chapter.subchapters}}
 					{{#each chapter.subchapters as |subchapter|}}
-						<div class='chapter-subsection' id="{{subchapter._id}}">
+						<div class='chapter-section' style="display:none" id="content_{{subchapter._id}}">
 							<h2>{{subchapter.name}}</h2>
 							{{#if subchapter.data }}
 								{{{subchapter.data.content}}}
 							{{/if}}
 							{{#if subchapter.subchapters}}
 								{{#each subchapter.subchapters as |sc|}}
-									<div class='subchapter-content' id="{{sc._id}}">
+									<div class='chapter-section' style="display:none" id="content_{{sc._id}}">
 											<h3>{{sc.name}}</h3>
 											{{{sc.data.content}}}
 									</div>

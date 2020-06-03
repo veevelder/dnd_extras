@@ -6,9 +6,9 @@ class PHB extends Application {
 	
 	static get defaultOptions() {
 		const options = super.defaultOptions;
-		options.template = "modules/dnd5e-compendium-extras/templates/phb.html";
-		options.width = 500;
-		options.height = 460;
+		options.template = "modules/dnd-extras/templates/phb.html";
+		options.width = 1200;
+		options.height = 700;
 		options.resizable = true;
 		options.class = ["phb-book"];
 		options.title = "Player's Handbook";
@@ -17,7 +17,7 @@ class PHB extends Application {
 	
 	async loadChapters() {
 		console.log('Books | Starting to load Player Handbook folder data');
-		let response = await fetch('modules/dnd5e-compendium-extras/books/phb-folders.db');
+		let response = await fetch('modules/dnd-extras/books/phb-folders.db');
 		if(!response.ok) {
 			console.error(response);
 			throw Error('Books | Failed to load Player Handbook folder data.')
@@ -61,7 +61,7 @@ class PHB extends Application {
 	}
 	
 	async loadContent() {
-		let pack = game.packs.get("dnd5e-compendium-extras.phb");
+		let pack = game.packs.get("dnd-extras.phb");
 		await pack.getIndex();
 		for(var i = 0; i < pack.index.length; i++) {
 			let content = await pack.getEntity(pack.index[i]._id);
