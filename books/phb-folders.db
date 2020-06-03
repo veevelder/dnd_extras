@@ -1,0 +1,20 @@
+{"_id":"GthUZw8lMJGn5U68","name":"Introduction","type":"JournalEntry","sort":100001,"flags":{},"parent":null,"color":""}
+{"_id":"RZZIrdyN0vSYvPDr","name":"Part 1","type":"JournalEntry","sort":100002,"flags":{},"parent":null,"color":""}
+{"_id":"Ln27uc2YWB48aGeh","name":"Part 2","type":"JournalEntry","sort":100003,"flags":{},"parent":null,"color":""}
+{"_id":"hsBY0TWQmIoN8lY3","name":"Part 3","type":"JournalEntry","sort":100004,"flags":{},"parent":null,"color":""}
+{"_id":"dWl3fXUo1ffkb0TB","name":"Appendix A","type":"JournalEntry","sort":100005,"flags":{},"parent":null,"color":""}
+{"_id":"7gcGStKQhe44yYOh","name":"Appendix B","type":"JournalEntry","sort":100006,"flags":{},"parent":null,"color":""}
+{"_id":"ACgX7eR6d5Kxh7qY","name":"Appendix C","type":"JournalEntry","sort":100007,"flags":{},"parent":null,"color":""}
+{"_id":"XLrXjvIy6UIkN4fj","name":"Appendix D","type":"JournalEntry","sort":100008,"flags":{},"parent":null,"color":""}
+{"_id":"zfZdADxRh2Q4oeC1","name":"Appendix E","type":"JournalEntry","sort":100009,"flags":{},"parent":null,"color":""}
+{"_id":"B5AgLKaKze6tFNl3","name":"Chapter 1","type":"JournalEntry","sort":100010,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"e3c4UYxb5eaBKOWP","name":"Chapter 2","type":"JournalEntry","sort":100011,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"1CiurhtoOLU7zKWj","name":"Chapter 3","type":"JournalEntry","sort":100012,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"h99oYZ1y0OhalLsf","name":"Chapter 4","type":"JournalEntry","sort":100013,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"wouWmeL6wA4PqKrL","name":"Chapter 5","type":"JournalEntry","sort":100014,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"nNQUTeTzLTaLrTTo","name":"Chapter 6","type":"JournalEntry","sort":100015,"flags":{},"parent":"RZZIrdyN0vSYvPDr","color":""}
+{"_id":"jLb5D7Zrnu8QH3L6","name":"Chapter 7","type":"JournalEntry","sort":100016,"flags":{},"parent":"Ln27uc2YWB48aGeh","color":""}
+{"_id":"wMX0YCnDNfynCLBE","name":"Chapter 8","type":"JournalEntry","sort":100017,"flags":{},"parent":"Ln27uc2YWB48aGeh","color":""}
+{"_id":"WJFkrycejwD9VrG2","name":"Chapter 9","type":"JournalEntry","sort":100018,"flags":{},"parent":"Ln27uc2YWB48aGeh","color":""}
+{"_id":"CnIgSH2TOJ2cbzXG","name":"Chapter 10","type":"JournalEntry","sort":100019,"flags":{},"parent":"hsBY0TWQmIoN8lY3","color":""}
+{"_id":"XbjnYUUulRqm343u","name":"Chapter 11","type":"JournalEntry","sort":100020,"flags":{},"parent":"hsBY0TWQmIoN8lY3","color":""}
