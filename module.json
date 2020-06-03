@@ -7,10 +7,18 @@
     "minimumCoreVersion": "0.5.5",
     "compatibleCoreVersion": "0.6.0",
     "systems": ["dnd5e"],
-    "esmodules": ["main.js", "module/patching.js"],
+    "esmodules": ["main.js"],
     "scripts": ["vars.js"],
     "styles": ["css/styles.css"],
-    "packs": [],
+    "packs": [
+		{
+			"name": "extra-backgrounds",
+			"label": "Backgrounds",
+			"path": "./packs/backgroundfeatures.db",
+			"module": "dnd-extras",
+			"entity": "Item"
+		}
+	],
     "socket": true,
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
