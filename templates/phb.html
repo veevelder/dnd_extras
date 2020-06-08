@@ -38,22 +38,25 @@
 		</div>
 		{{#each chapters as |chapter|}}
 			<div class='chapter-section' style="display:none" id="content_{{chapter._id}}">
-				<h1>{{chapter.name}}</h1>
+				<h1 class='phb-part'>{{chapter.name}}</h1>
 				{{#if chapter.data }}
 					{{{chapter.data.content}}}
+					<p>&nbsp</p>
 				{{/if}}
 				{{#if chapter.subchapters}}
 					{{#each chapter.subchapters as |subchapter|}}
 						<div class='chapter-section' style="display:none" id="content_{{subchapter._id}}">
-							<h2>{{subchapter.name}}</h2>
+							<h2 class='phb-chapter'>{{subchapter.name}}</h2>
 							{{#if subchapter.data }}
 								{{{subchapter.data.content}}}
+								<p>&nbsp</p>
 							{{/if}}
 							{{#if subchapter.subchapters}}
 								{{#each subchapter.subchapters as |sc|}}
 									<div class='chapter-section' style="display:none" id="content_{{sc._id}}">
-											<h3>{{sc.name}}</h3>
+											<h3 class='phb-section'>{{sc.name}}</h3>
 											{{{sc.data.content}}}
+											<p>&nbsp</p>
 									</div>
 								{{/each}}
 							{{/if}}
