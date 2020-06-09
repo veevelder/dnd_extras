@@ -2,7 +2,7 @@
     "name": "dnd-extras",
     "title": "D&D 5E Extras",
     "description": "This is a collection of Compendium Extras for D&D5e that are not included in the SRD",
-    "version": "0.3.4",
+    "version": "0.3.5",
     "author": "veevelder",
     "minimumCoreVersion": "0.5.5",
     "compatibleCoreVersion": "0.6.2",
@@ -29,61 +29,61 @@
 			"name": "extra-feats",
 			"label": "Feats",
 			"path": "./packs/feats.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-items",
 			"label": "Items",
 			"path": "./packs/items.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-macros",
 			"label": "Macros",
 			"path": "packs/macros.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Macro"
 		},
 		{
 			"name": "extra-monsterfeatures",
 			"label": "Monster Features",
 			"path": "./packs/monsterfeatures.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-monsters",
 			"label": "Monsters",
 			"path": "./packs/monsters.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Actor"
 		},
 		{
 			"name": "phb",
 			"label": "Players Handbook",
 			"path": "packs/phb.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "JournalEntry"
 		},
 		{
 			"name": "extra-racefeatures",
 			"label": "Race Features",
 			"path": "./packs/racefeatures.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-spells",
 			"label": "Spells",
 			"path": "./packs/spells.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		}
 	],
     "socket": true,
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/v0.3.4/v0.3.4.zip"
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/v0.3.5/v0.3.5.zip"
   }

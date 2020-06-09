@@ -8,6 +8,6 @@ Install this module automatically by specifying the following public module URL 
 
 `https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json`
 
-As GM go to the **Manage Modules** options menu in your **World Settings** tab then enable the **Foundry Compendium Extras** module.
+As GM go to the **Manage Modules** options menu in your **World Settings** tab then enable the **D&D Extras** module.
 
-This module adds all of the community macros as a Compendium Packs called **Foundry Compendium Extras**.
+This module adds Extra Monsters, items and more as a Compendium Packs called **D&D Extras**.
