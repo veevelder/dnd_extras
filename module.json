@@ -2,41 +2,17 @@
     "name": "dnd-extras",
     "title": "D&D 5E Extras",
     "description": "This is a collection of Compendium Extras for D&D5e that are not included in the SRD",
-    "version": "0.3.9",
+    "version": "0.4.0",
     "author": "veevelder",
     "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "0.6.2",
+    "compatibleCoreVersion": "0.7.0",
     "systems": ["dnd5e"],
-    "esmodules": ["scripts/books.js"],
-    "scripts": ["scripts/book_event.js"],
-    "styles": ["styles/books.css"],
     "packs": [
-		{
-			"name": "extra-backgrounds",
-			"label": "Backgrounds",
-			"path": "./packs/backgroundfeatures.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
 		{
 			"name": "extra-classfeatures",
 			"label": "Class Features",
 			"path": "./packs/classfeatures.db",
 			"module": "dnd5e-compendium-extras",
-			"entity": "Item"
-		},
-		{
-			"name": "extra-feats",
-			"label": "Feats",
-			"path": "./packs/feats.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
-		{
-			"name": "extra-items",
-			"label": "Items",
-			"path": "./packs/items.db",
-			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
@@ -47,64 +23,15 @@
 			"entity": "Macro"
 		},
 		{
-			"name": "extra-monsterfeatures",
-			"label": "Monster Features",
-			"path": "./packs/monsterfeatures.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
-		{
-			"name": "extra-monsters",
-			"label": "Monsters",
-			"path": "./packs/monsters.db",
-			"module": "dnd-extras",
-			"entity": "Actor"
-		},
-		{
-			"name": "phb",
-			"label": "Players Handbook",
-			"path": "packs/phb.db",
-			"module": "dnd-extras",
-			"entity": "JournalEntry"
-		},
-		{
 			"name": "extra-racefeatures",
 			"label": "Race Features",
 			"path": "./packs/racefeatures.db",
 			"module": "dnd-extras",
 			"entity": "Item"
-		},
-		{
-			"name": "extra-spells",
-			"label": "Spells",
-			"path": "./packs/spells.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
-        {
-            "name": "class-features-tables",
-            "label": "Class Features Tables",
-            "path": "packs/classfeaturetables.db",
-            "module": "dnd-extras",
-            "entity": "RollTable"
-        },
-        {
-            "name": "backgroundfeature-tables",
-            "label": "Background Feature Tables",
-            "path": "packs/backgroundfeaturetable.db",
-            "module": "dnd-extras",
-            "entity": "RollTable"
-        },
-        {
-            "name": "item-tables",
-            "label": "Item Tables",
-            "path": "packs/itemtables.db",
-            "module": "dnd-extras",
-            "entity": "RollTable"
-        }
+		}
 	],
     "socket": true,
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/v0.3.9/v0.3.9.zip"
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/v0.4.0/v0.4.0.zip"
   }
