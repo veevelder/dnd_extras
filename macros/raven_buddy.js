@@ -2,20 +2,20 @@
 	const raven_name = "Royal";
 	let token = null;
 	if(game.user.isGM) {
-		if(canvas.tokens.controlled.length == 1) {
-			token = canvas.tokens.controlled[0];
+		if(canvas.tokens.controlled.length > 1) {
+			return ui.notifications.error("Only select one token at a time!");
+		}
+		else if(canvas.tokens.controlled.length == 0) {
+			return ui.notifications.error("Must Select at least one token!");
 		}
 		else {
-			return ui.notifications.error("Only select one token at a time!");
+			token = canvas.tokens.controlled[0];
 		}
 	}
 	else {
-		token = canvas.tokens.placeables.find(a => a.name === game.user.charname)
+		token = canvas.tokens.placeables.filter(a => a.actor).find(a => a.actor._id == game.user.data.character)
 	}
 	if(token) {
-		let target = new Set();
-		target.add(token);
-		//let targetScene = game.scenes.active;
 		let item = token.actor.effects.find(a => a.data.label == "Sentinel Raven");
 
 		if (item.data.disabled === false) {
