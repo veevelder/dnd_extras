@@ -2,10 +2,10 @@
     "name": "dnd-extras",
     "title": "D&D 5E Extras",
     "description": "This is a collection of Compendium Extras for D&D5e that are not included in the SRD",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "author": "veevelder",
     "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.8.8",
     "systems": ["dnd5e"],
     "packs": [
 		{
@@ -44,7 +44,6 @@
 			"entity": "Playlist"
 		}
 	],
-    "socket": true,
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
     "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.0/dnd_extras.zip"
