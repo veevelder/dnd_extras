@@ -9,18 +9,39 @@
     "systems": ["dnd5e"],
     "packs": [
 		{
+			"name": "extra-actions",
+			"label": "Actions",
+			"path": "./packs/actions.db",
+			"module": "dnd-extras",
+			"entity": "Item"
+		},
+		{
 			"name": "extra-classfeatures",
 			"label": "Class Features",
 			"path": "./packs/classfeatures.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "Item"
 		},
 		{
 			"name": "extra-classfeaturetables",
 			"label": "Class Feature Tables",
 			"path": "./packs/classfeaturetables.db",
-			"module": "dnd5e-compendium-extras",
+			"module": "dnd-extras",
 			"entity": "RollTable"
+		},
+		{
+			"name": "extra-playlists",
+			"label": "Combat-Background Playlists",
+			"path": "./packs/combat-background-playlists.db",
+			"module": "dnd-extras",
+			"entity": "Playlist"
+		},
+		{
+			"name": "extra-feats",
+			"label": "Class Features",
+			"path": "./packs/feats.db",
+			"module": "dnd-feats",
+			"entity": "Item"
 		},
 		{
 			"name": "extra-macros",
@@ -37,14 +58,38 @@
 			"entity": "Item"
 		},
 		{
-			"name": "extra-playlists",
-			"label": "Combat-Background Playlists",
-			"path": "./packs/combat-background-playlists.db",
+			"name": "extra-spells",
+			"label": "Spells",
+			"path": "./packs/spells.db",
 			"module": "dnd-extras",
-			"entity": "Playlist"
+			"entity": "Item"
+		},
+		{
+			"name": "extra-summons",
+			"label": "Summons",
+			"path": "./packs/summons.db",
+			"module": "dnd-extras",
+			"entity": "Actor"
 		}
 	],
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.2/dnd_extras.zip"
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.2/dnd_extras.zip",
+	"dependencies": [
+		{
+			"name": "michaelghelfi"
+		},
+		{
+			"name": "music-d20-sampler"
+		},
+		{
+			"name": "surreal-schematics-sounds"
+		},
+		{
+			"name": "tabletop-music-bazaar-free"
+		},
+		{
+			"name": "tabletop-rpg-music"
+		}
+	]
   }
