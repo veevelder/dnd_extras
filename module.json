@@ -2,7 +2,7 @@
     "name": "dnd-extras",
     "title": "DnD 5E Extras",
     "description": "This is a collection of Extras for DnD 5e",
-    "version": "0.5.2",
+    "version": "0.5.3",
     "author": "veevelder",
     "minimumCoreVersion": "0.5.5",
     "compatibleCoreVersion": "0.8.9",
@@ -14,20 +14,6 @@
 			"path": "./packs/actions.db",
 			"module": "dnd-extras",
 			"entity": "Item"
-		},
-		{
-			"name": "extra-classfeatures",
-			"label": "Class Features",
-			"path": "./packs/classfeatures.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
-		{
-			"name": "extra-classfeaturetables",
-			"label": "Class Feature Tables",
-			"path": "./packs/classfeaturetables.db",
-			"module": "dnd-extras",
-			"entity": "RollTable"
 		},
 		{
 			"name": "extra-playlists",
@@ -51,13 +37,6 @@
 			"entity": "Macro"
 		},
 		{
-			"name": "extra-racefeatures",
-			"label": "Race Features",
-			"path": "./packs/racefeatures.db",
-			"module": "dnd-extras",
-			"entity": "Item"
-		},
-		{
 			"name": "extra-spells",
 			"label": "Spells",
 			"path": "./packs/spells.db",
@@ -74,7 +53,7 @@
 	],
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.2/dnd_extras.zip",
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.3/dnd_extras.zip",
 	"dependencies": [
 		{
 			"name": "michaelghelfi"
