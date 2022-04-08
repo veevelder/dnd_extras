@@ -2,10 +2,10 @@
     "name": "dnd-extras",
     "title": "DnD 5E Extras",
     "description": "This is a collection of Extras for DnD 5e",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "author": "veevelder",
     "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "9",
     "systems": ["dnd5e"],
     "packs": [
 		{
@@ -14,13 +14,6 @@
 			"path": "./packs/actions.db",
 			"module": "dnd-extras",
 			"entity": "Item"
-		},
-		{
-			"name": "extra-playlists",
-			"label": "Combat-Background Playlists",
-			"path": "./packs/combat-background-playlists.db",
-			"module": "dnd-extras",
-			"entity": "Playlist"
 		},
 		{
 			"name": "extra-feats",
@@ -53,22 +46,5 @@
 	],
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.3/dnd_extras.zip",
-	"dependencies": [
-		{
-			"name": "michaelghelfi"
-		},
-		{
-			"name": "music-d20-sampler"
-		},
-		{
-			"name": "surreal-schematics-sounds"
-		},
-		{
-			"name": "tabletop-music-bazaar-free"
-		},
-		{
-			"name": "tabletop-rpg-music"
-		}
-	]
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.4/dnd_extras.zip"
   }
