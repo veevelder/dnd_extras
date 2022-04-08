@@ -46,5 +46,5 @@
 	],
     "url": "https://github.com/veevelder/dnd_extras",
     "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.4/dnd_extras.zip"
+    "download": "https://github.com/veevelder/dnd_extras/releases/download/v0.5.4/dnd_extras.zip"
   }
