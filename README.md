@@ -6,7 +6,7 @@ A list of Items, Monsters, and more that are not found in the SRD for using with
 
 Install this module automatically by specifying the following public module URL : 
 
-`https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json`
+`https://github.com/veevelder/dnd_extras/releases/latest/download/module.json`
 
 As GM go to the **Manage Modules** options menu in your **World Settings** tab then enable the **D&D Extras** module.
 
