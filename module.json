@@ -1,5 +1,6 @@
 {
     "name": "dnd-extras",
+    "compatibleCoreVersion": "9",
 
     "id": "dnd-extras",
     "title": "DnD 5E Extras",
