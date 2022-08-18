@@ -1,6 +1,5 @@
 {
     "name": "dnd-extras",
-    "minimumCoreVersion": "0.5.5",
     "compatibleCoreVersion": "9",
 
     "id": "dnd-extras",
