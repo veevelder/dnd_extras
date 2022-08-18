@@ -1,13 +1,29 @@
 {
-    "name": "dnd-extras",
+    "id": "dnd-extras",
     "title": "DnD 5E Extras",
     "description": "This is a collection of Extras for DnD 5e",
-    "version": "0.5.5",
-    "author": "veevelder",
-    "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "9",
-    "systems": ["dnd5e"],
-    "packs": [
+	"version": "This is auto replaced",
+	"library": "false",
+	"manifestPlusVersion": "1.2.0",
+	"compatibility": {
+		"minimum": 0.5,
+		"verified": 9
+	},
+	"authors": [
+		{
+			"name": "lostix",
+			"url": "https://github.com/veevelder/dnd_extras"
+		}
+	],
+	"relationships": {
+		"systems": [],
+		"requires": []
+	},
+	"esmodules": [],
+	"scripts": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
 		{
 			"name": "extra-actions",
 			"label": "Actions",
@@ -44,7 +60,10 @@
 			"entity": "Actor"
 		}
 	],
-    "url": "https://github.com/veevelder/dnd_extras",
-    "manifest": "https://raw.githubusercontent.com/veevelder/dnd_extras/master/module.json",
-    "download": "https://github.com/veevelder/dnd_extras/releases/download/0.5.5/dnd_extras.zip"
-  }
+	"url": "This is auto replaced",
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"media": []
+}
