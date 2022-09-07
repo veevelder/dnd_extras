@@ -30,37 +30,42 @@
 		{
 			"name": "extra-actions",
 			"label": "Actions",
+			"system": "dnd5e",
 			"path": "./packs/actions.db",
 			"module": "dnd-extras",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "extra-feats",
 			"label": "Class Features",
+			"system": "dnd5e",
 			"path": "./packs/feats.db",
 			"module": "dnd-feats",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "extra-macros",
 			"label": "Macros",
+			"system": "dnd5e",
 			"path": "packs/macros.db",
 			"module": "dnd-extras",
-			"entity": "Macro"
+			"type": "Macro"
 		},
 		{
 			"name": "extra-spells",
 			"label": "Spells",
+			"system": "dnd5e",
 			"path": "./packs/spells.db",
 			"module": "dnd-extras",
-			"entity": "Item"
+			"type": "Item"
 		},
 		{
 			"name": "extra-summons",
 			"label": "Summons",
+			"system": "dnd5e",
 			"path": "./packs/summons.db",
 			"module": "dnd-extras",
-			"entity": "Actor"
+			"type": "Actor"
 		}
 	],
 	"url": "This is auto replaced",
